@@ -47,7 +47,13 @@ or
 ```bash
     yarn add
 ```
-3. Start the backend application:
+3. Set up environment variables:
+Create a .env file in the server directory and add the necessary environment variables for JWT secret
+Example .env for the server:
+```bash
+   JWT_SECRET=your_jwt_secret
+``` 
+4. Start the backend application:
 ```bash
    npm dev 
 ``` 
