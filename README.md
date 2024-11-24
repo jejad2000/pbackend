@@ -39,7 +39,7 @@ Before starting, make sure you have the following installed:
    git https://github.com/jejad2000/pbackend.git
    cd pbackend
 ```
-2. Install dependencies for both the front-end and back-end:
+2. Install dependencies for back-end:
 ```bash
    npm install 
 ``` 
@@ -47,9 +47,9 @@ or
 ```bash
     yarn add
 ```
-3. Start the frontend application:
+3. Start the backend application:
 ```bash
-   npm start 
+   npm dev 
 ``` 
 
-The front-end will run on http://localhost:3005
+The backend will run on http://localhost:3005
