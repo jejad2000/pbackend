@@ -36,7 +36,7 @@ Before starting, make sure you have the following installed:
 
 1. Clone the repository:
 ```bash
-   git https://github.com/jejad2000/pbackend.git
+   git clone https://github.com/jejad2000/pbackend.git
    cd pbackend
 ```
 2. Install dependencies for back-end:
