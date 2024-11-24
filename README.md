@@ -22,7 +22,8 @@ The backend utilizes WebSocket connections for real-time updates, and the front-
 - **JWT Authentication**: Secure user login and registration using JSON Web Tokens (JWT).
 
 ## Future Improvements
-- **Add Database to Save Data**: Integrate a database (e.g., PostgreSQL, MongoDB) to persist data for notes, user accounts, and other relevant information. This will ensure that notes are saved even when the server or application is restarted and can be retrieved when users log in.
+- **Add Database to Save Data**: Integrate a database (e.g., PostgreSQL, MongoDB, MySql) to persist data for notes, user accounts, and other relevant information. This will ensure that notes are saved even when the server or application is restarted and can be retrieved when users log in.
+- **JWT Refresh Tokens**: Implement a refresh token mechanism to enhance security and user experience. Refresh tokens will allow users to maintain their sessions without re-authenticating frequently while reducing the risk of token theft and misuse.
 
 ## Installation
 
